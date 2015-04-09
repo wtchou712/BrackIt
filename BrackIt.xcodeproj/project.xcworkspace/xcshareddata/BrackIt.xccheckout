@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>84290119-173E-411F-902C-D5B5AEC37E13</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BrackIt</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E7E8FCF37C4A906DAB06FE5A3F4CFE10039246FE</key>
+		<string>https://github.com/wtchou712/BrackIt.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BrackIt.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E7E8FCF37C4A906DAB06FE5A3F4CFE10039246FE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/wtchou712/BrackIt.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E7E8FCF37C4A906DAB06FE5A3F4CFE10039246FE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E7E8FCF37C4A906DAB06FE5A3F4CFE10039246FE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BrackIt</string>
+		</dict>
+	</array>
+</dict>
+</plist>

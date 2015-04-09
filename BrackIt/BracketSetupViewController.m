@@ -19,8 +19,11 @@
 
 - (IBAction)createGame:(id)sender {
     NSString *bracketName = self.bracketName.text;
-    int *numPlayers =
+    int numPlayers = [self.playerCount.text intValue];
+    
     NSLog(@"%@", bracketName);
+    NSLog(@"%d", numPlayers);
+    NSLog(@"%d", self.selectedSize);
 }
 
 - (void)viewDidLoad {

@@ -9,6 +9,19 @@
 /* Begin PBXBuildFile section */
 		BE17A7F31ACDD714002EB333 /* BracketSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE17A7F21ACDD714002EB333 /* BracketSetupViewController.m */; };
 		BE17A7F61AD46921002EB333 /* PlayerInputsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE17A7F51AD46921002EB333 /* PlayerInputsViewController.m */; };
+		BE17A7F91AD72285002EB333 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE17A7F71AD72285002EB333 /* Bolts.framework */; };
+		BE17A7FA1AD72285002EB333 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE17A7F81AD72285002EB333 /* Parse.framework */; };
+		BE17A7FD1AD722BB002EB333 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE17A7FC1AD722BB002EB333 /* AudioToolbox.framework */; };
+		BE17A7FF1AD722C3002EB333 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE17A7FE1AD722C3002EB333 /* CFNetwork.framework */; };
+		BE17A8011AD722CB002EB333 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE17A8001AD722CB002EB333 /* CoreGraphics.framework */; };
+		BE17A8031AD722D0002EB333 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE17A8021AD722D0002EB333 /* CoreLocation.framework */; };
+		BE17A8051AD722DA002EB333 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE17A8041AD722DA002EB333 /* MobileCoreServices.framework */; };
+		BE17A8071AD722E7002EB333 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE17A8061AD722E7002EB333 /* QuartzCore.framework */; };
+		BE17A8091AD722ED002EB333 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE17A8081AD722ED002EB333 /* Security.framework */; };
+		BE17A80B1AD722F8002EB333 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE17A80A1AD722F8002EB333 /* StoreKit.framework */; };
+		BE17A80D1AD722FE002EB333 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE17A80C1AD722FE002EB333 /* SystemConfiguration.framework */; };
+		BE17A80F1AD7230A002EB333 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BE17A80E1AD7230A002EB333 /* libz.dylib */; };
+		BE17A8111AD72319002EB333 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BE17A8101AD72319002EB333 /* libsqlite3.dylib */; };
 		BE6A778F1ACB757600495B13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6A778E1ACB757600495B13 /* main.m */; };
 		BE6A77921ACB757600495B13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6A77911ACB757600495B13 /* AppDelegate.m */; };
 		BE6A77981ACB757600495B13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6A77961ACB757600495B13 /* Main.storyboard */; };
@@ -33,6 +46,19 @@
 		BE17A7F21ACDD714002EB333 /* BracketSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BracketSetupViewController.m; sourceTree = "<group>"; };
 		BE17A7F41AD46921002EB333 /* PlayerInputsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerInputsViewController.h; sourceTree = "<group>"; };
 		BE17A7F51AD46921002EB333 /* PlayerInputsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerInputsViewController.m; sourceTree = "<group>"; };
+		BE17A7F71AD72285002EB333 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		BE17A7F81AD72285002EB333 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		BE17A7FC1AD722BB002EB333 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BE17A7FE1AD722C3002EB333 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BE17A8001AD722CB002EB333 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE17A8021AD722D0002EB333 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BE17A8041AD722DA002EB333 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BE17A8061AD722E7002EB333 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BE17A8081AD722ED002EB333 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BE17A80A1AD722F8002EB333 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		BE17A80C1AD722FE002EB333 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BE17A80E1AD7230A002EB333 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		BE17A8101AD72319002EB333 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		BE6A77891ACB757600495B13 /* BrackIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrackIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6A778D1ACB757600495B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE6A778E1ACB757600495B13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,6 +79,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE17A8111AD72319002EB333 /* libsqlite3.dylib in Frameworks */,
+				BE17A80F1AD7230A002EB333 /* libz.dylib in Frameworks */,
+				BE17A80D1AD722FE002EB333 /* SystemConfiguration.framework in Frameworks */,
+				BE17A80B1AD722F8002EB333 /* StoreKit.framework in Frameworks */,
+				BE17A8091AD722ED002EB333 /* Security.framework in Frameworks */,
+				BE17A8071AD722E7002EB333 /* QuartzCore.framework in Frameworks */,
+				BE17A8051AD722DA002EB333 /* MobileCoreServices.framework in Frameworks */,
+				BE17A8031AD722D0002EB333 /* CoreLocation.framework in Frameworks */,
+				BE17A8011AD722CB002EB333 /* CoreGraphics.framework in Frameworks */,
+				BE17A7FF1AD722C3002EB333 /* CFNetwork.framework in Frameworks */,
+				BE17A7FD1AD722BB002EB333 /* AudioToolbox.framework in Frameworks */,
+				BE17A7FA1AD72285002EB333 /* Parse.framework in Frameworks */,
+				BE17A7F91AD72285002EB333 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +105,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE17A7FB1AD7228C002EB333 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE17A8101AD72319002EB333 /* libsqlite3.dylib */,
+				BE17A80E1AD7230A002EB333 /* libz.dylib */,
+				BE17A80C1AD722FE002EB333 /* SystemConfiguration.framework */,
+				BE17A80A1AD722F8002EB333 /* StoreKit.framework */,
+				BE17A8081AD722ED002EB333 /* Security.framework */,
+				BE17A8061AD722E7002EB333 /* QuartzCore.framework */,
+				BE17A8041AD722DA002EB333 /* MobileCoreServices.framework */,
+				BE17A8021AD722D0002EB333 /* CoreLocation.framework */,
+				BE17A8001AD722CB002EB333 /* CoreGraphics.framework */,
+				BE17A7FE1AD722C3002EB333 /* CFNetwork.framework */,
+				BE17A7FC1AD722BB002EB333 /* AudioToolbox.framework */,
+				BE17A7F71AD72285002EB333 /* Bolts.framework */,
+				BE17A7F81AD72285002EB333 /* Parse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE17A8121AD723C5002EB333 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BE6A77931ACB757600495B13 /* WelcomePageViewController.h */,
+				BE6A77941ACB757600495B13 /* WelcomePageViewController.m */,
+				BE17A7F11ACDD714002EB333 /* BracketSetupViewController.h */,
+				BE17A7F21ACDD714002EB333 /* BracketSetupViewController.m */,
+				BE17A7F41AD46921002EB333 /* PlayerInputsViewController.h */,
+				BE17A7F51AD46921002EB333 /* PlayerInputsViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		BE6A77801ACB757500495B13 = {
 			isa = PBXGroup;
 			children = (
@@ -89,16 +161,12 @@
 			children = (
 				BE6A77901ACB757600495B13 /* AppDelegate.h */,
 				BE6A77911ACB757600495B13 /* AppDelegate.m */,
-				BE6A77931ACB757600495B13 /* WelcomePageViewController.h */,
-				BE6A77941ACB757600495B13 /* WelcomePageViewController.m */,
+				BE17A8121AD723C5002EB333 /* ViewControllers */,
 				BE6A77961ACB757600495B13 /* Main.storyboard */,
-				BE17A7F11ACDD714002EB333 /* BracketSetupViewController.h */,
-				BE17A7F21ACDD714002EB333 /* BracketSetupViewController.m */,
 				BE6A77991ACB757600495B13 /* Images.xcassets */,
 				BE6A779B1ACB757600495B13 /* LaunchScreen.xib */,
 				BE6A778C1ACB757600495B13 /* Supporting Files */,
-				BE17A7F41AD46921002EB333 /* PlayerInputsViewController.h */,
-				BE17A7F51AD46921002EB333 /* PlayerInputsViewController.m */,
+				BE17A7FB1AD7228C002EB333 /* Frameworks */,
 			);
 			path = BrackIt;
 			sourceTree = "<group>";
@@ -357,6 +425,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BrackIt",
+				);
 				INFOPLIST_FILE = BrackIt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -367,6 +439,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BrackIt",
+				);
 				INFOPLIST_FILE = BrackIt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
