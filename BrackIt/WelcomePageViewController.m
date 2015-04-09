@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 William Chou. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "WelcomePageViewController.h"
 
-@interface ViewController ()
+@interface WelcomePageViewController ()
 
 @end
 
-@implementation ViewController
+@implementation WelcomePageViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

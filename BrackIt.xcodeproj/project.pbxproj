@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE17A7F31ACDD714002EB333 /* BracketSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE17A7F21ACDD714002EB333 /* BracketSetupViewController.m */; };
+		BE17A7F61AD46921002EB333 /* PlayerInputsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE17A7F51AD46921002EB333 /* PlayerInputsViewController.m */; };
 		BE6A778F1ACB757600495B13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6A778E1ACB757600495B13 /* main.m */; };
 		BE6A77921ACB757600495B13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6A77911ACB757600495B13 /* AppDelegate.m */; };
-		BE6A77951ACB757600495B13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6A77941ACB757600495B13 /* ViewController.m */; };
 		BE6A77981ACB757600495B13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6A77961ACB757600495B13 /* Main.storyboard */; };
 		BE6A779A1ACB757600495B13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6A77991ACB757600495B13 /* Images.xcassets */; };
 		BE6A779D1ACB757600495B13 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE6A779B1ACB757600495B13 /* LaunchScreen.xib */; };
 		BE6A77A91ACB757600495B13 /* BrackItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6A77A81ACB757600495B13 /* BrackItTests.m */; };
+		BEC3F9A51ACB7AC500F2E23C /* WelcomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6A77941ACB757600495B13 /* WelcomePageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,13 +29,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE17A7F11ACDD714002EB333 /* BracketSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BracketSetupViewController.h; sourceTree = "<group>"; };
+		BE17A7F21ACDD714002EB333 /* BracketSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BracketSetupViewController.m; sourceTree = "<group>"; };
+		BE17A7F41AD46921002EB333 /* PlayerInputsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerInputsViewController.h; sourceTree = "<group>"; };
+		BE17A7F51AD46921002EB333 /* PlayerInputsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerInputsViewController.m; sourceTree = "<group>"; };
 		BE6A77891ACB757600495B13 /* BrackIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrackIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6A778D1ACB757600495B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE6A778E1ACB757600495B13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BE6A77901ACB757600495B13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BE6A77911ACB757600495B13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BE6A77931ACB757600495B13 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BE6A77941ACB757600495B13 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE6A77931ACB757600495B13 /* WelcomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WelcomePageViewController.h; sourceTree = "<group>"; };
+		BE6A77941ACB757600495B13 /* WelcomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WelcomePageViewController.m; sourceTree = "<group>"; };
 		BE6A77971ACB757600495B13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE6A77991ACB757600495B13 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BE6A779C1ACB757600495B13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,12 +89,16 @@
 			children = (
 				BE6A77901ACB757600495B13 /* AppDelegate.h */,
 				BE6A77911ACB757600495B13 /* AppDelegate.m */,
-				BE6A77931ACB757600495B13 /* ViewController.h */,
-				BE6A77941ACB757600495B13 /* ViewController.m */,
+				BE6A77931ACB757600495B13 /* WelcomePageViewController.h */,
+				BE6A77941ACB757600495B13 /* WelcomePageViewController.m */,
 				BE6A77961ACB757600495B13 /* Main.storyboard */,
+				BE17A7F11ACDD714002EB333 /* BracketSetupViewController.h */,
+				BE17A7F21ACDD714002EB333 /* BracketSetupViewController.m */,
 				BE6A77991ACB757600495B13 /* Images.xcassets */,
 				BE6A779B1ACB757600495B13 /* LaunchScreen.xib */,
 				BE6A778C1ACB757600495B13 /* Supporting Files */,
+				BE17A7F41AD46921002EB333 /* PlayerInputsViewController.h */,
+				BE17A7F51AD46921002EB333 /* PlayerInputsViewController.m */,
 			);
 			path = BrackIt;
 			sourceTree = "<group>";
@@ -219,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE6A77951ACB757600495B13 /* ViewController.m in Sources */,
+				BEC3F9A51ACB7AC500F2E23C /* WelcomePageViewController.m in Sources */,
 				BE6A77921ACB757600495B13 /* AppDelegate.m in Sources */,
 				BE6A778F1ACB757600495B13 /* main.m in Sources */,
+				BE17A7F61AD46921002EB333 /* PlayerInputsViewController.m in Sources */,
+				BE17A7F31ACDD714002EB333 /* BracketSetupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +426,7 @@
 				BE6A77AE1ACB757600495B13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE6A77AF1ACB757600495B13 /* Build configuration list for PBXNativeTarget "BrackItTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +435,7 @@
 				BE6A77B11ACB757600495B13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
